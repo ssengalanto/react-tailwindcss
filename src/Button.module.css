@@ -1,0 +1,39 @@
+.base {
+  @apply inline-block text-lg rounded-md focus:outline-none focus:ring focus:ring-opacity-50;
+}
+
+.animate {
+  @apply transition duration-300 ease-in-out;
+}
+
+.primary {
+  @apply text-white bg-indigo-500 hover:bg-indigo-600 ring-indigo-200;
+}
+
+.success {
+  @apply text-white bg-green-500 hover:bg-green-600 ring-green-200;
+}
+
+.warn {
+  @apply text-white bg-yellow-500 hover:bg-yellow-600 ring-yellow-200;
+}
+
+.danger {
+  @apply text-white bg-red-500 hover:bg-red-600 ring-red-200;
+}
+
+.disabled {
+  @apply bg-gray-200 cursor-not-allowed;
+}
+
+.small {
+  @apply px-6 py-2;
+}
+
+.medium {
+  @apply px-8 py-4;
+}
+
+.fullWidth {
+  @apply w-full;
+}
